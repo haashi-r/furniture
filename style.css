@@ -1,0 +1,127 @@
+#logo{
+    width:100%;
+    height:100px;
+}
+#newrow{
+    border:3px solid red;
+    width:80%;
+    height:70%;
+}
+ul li{
+    font-size: 20px;
+    margin: 0px 10px;
+}
+li i{
+    color: grey;
+}
+:root{
+    --x:brown;
+}
+#buttn{
+    background-color: brown;
+
+}
+
+#buttn:hover{
+    background-color: white;
+    color:var(--x);
+    border-color: var(--x);
+
+}
+@media(max-width:992px){
+    .nav-item i{
+        display:none;
+    }
+}
+#main{
+    background-image:url(./backgroundimage.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:120vh;
+    background-attachment: fixed;
+}
+#div{
+    width:100%;
+    height:120vh;
+    background-color: rgba(0, 0, 0, 0.189);
+}
+#welcome{
+    padding-top: 22%;
+    padding-left: 5%;
+
+}
+#welcome h4{
+    font-size: 30px;
+    color: white;
+}
+#welcome h1{
+    color: white;
+    font-size: 100px;
+}
+@media(max-width:600px){
+    #welcome h4{
+        font-size: 20px;
+    }
+    #welcome h1{
+        font-size: 50px;
+    }
+}
+#work{
+   text-align: center;
+}
+#back{
+    background-image: url(https://t3.ftcdn.net/jpg/04/99/45/32/360_F_499453224_GOuwhWOXkzAdtXTKFajS91I3LbMFyyQE.jpg);
+    padding-top:2%;
+}
+div .viewbtn{
+    color: var(--x);
+    border-color: var(--x) ;
+}
+div .viewbtn:hover{
+    background-color: var(--x);
+    color: white;
+}
+#about{
+    background-color: whitesmoke;
+    padding:8% 0%;
+}
+#hr{
+    border:2px solid red;
+    width:60px;
+}
+.projGDiv1{
+    position: relative;
+}
+.projGDiv1 img{
+    position: relative;
+    /* width: 100%; */
+    height: 100%;
+}
+
+.projGDiv2{
+    width: 50%;
+    height: 10%;
+    background-color: rgba(30, 26, 26, 0.888);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;  
+    position: absolute;
+    bottom: 0px;
+}
+
+.projGDiv3{
+    width: 70%;
+    height: 15%;
+    background-color: rgba(30, 26, 26, 0.888);
+    display: flex;
+    align-items: center;
+    color: white; 
+    position: absolute;
+    justify-content: center;
+    bottom: 0px; 
+}
+
+
+
+
